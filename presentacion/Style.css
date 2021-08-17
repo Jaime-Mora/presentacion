@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(255, 255, 255)  ;
+   
+
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    box-shadow: 15px -7px 17px 5px rgba(0,0,0,0.61)    ;
+    
+}
+
+
+
+.derecho{                                                     /*Contenedor Dercho*/
+    background-color: rgb(241, 235, 235);
+    width: 75%;
+    height: 729px;
+}
+
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+}
+
+.correos{
+    padding: 25px;
+}
+
+
+.cuerpo{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 100px;
+}
+
+.textos{
+    margin-top: 10px;
+
+}
+
+.cuerpo1{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 100px;
+} 
+.cuerpo2{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 100px;
+}
+.parrafos{
+    margin-top: 10px;
+}
+
+.subtitulo{
+    margin-left: 25px;
+}
+
+
+.izquierdo{                                                    /*Contenedor Izquierdo*/
+    background-color: rgb(57, 63, 63);
+    width: 30%;
+    height: 729px;
+    color: rgb(248, 240, 240);
+}
+
+.foto{
+    margin-left: 100px;
+    height: 140px;
+    border-radius: 100px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.sobremi{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto{
+    margin: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
